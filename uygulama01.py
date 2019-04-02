@@ -83,3 +83,4 @@ else:
     print()
 
 print("     Sınav sona ermiştir... Aldığınız PUAN : ", str(puan*20))
+input ("Çıkmak için herhangi bir tuşa basınız...")
