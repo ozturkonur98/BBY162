@@ -12,7 +12,6 @@ kelimeuzunluk = len(kelimelist)
 print("Bu el {} harfli kelime geldi :)).\n".format(kelimeuzunluk))
 oyuncucan = 5
 bitkiler = []
-tahminler = []
 Cizgi = "|_|"
 for kelime in kelimelist:
     bitkiler.append(Cizgi)
