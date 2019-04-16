@@ -6,7 +6,7 @@ print (isim, "<< İyi oyunlar... >>\n")
 
 import random
 
-kelimelist = random.choice(["kekik", "kiraz", "marul", "dereotu", "kabak", "nohut",                               "patlıcan", "kızılcık", "bergamot", "hanımeli"])
+kelimelist = random.choice(["kekik", "kiraz", "marul", "dereotu", "kabak", "nohut", "patlıcan", "kızılcık", "bergamot", "hanımeli"])
 
 kelimeuzunluk = len(kelimelist)
 print("Bu el {} harfli kelime geldi :)).\n".format(kelimeuzunluk))
