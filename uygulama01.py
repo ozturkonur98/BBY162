@@ -38,49 +38,39 @@ print ("SINAV BAŞLIYOR...")
 print()
 
 Q1 = input (soru1) # 1.SORU CEVABI ENDONEZYA
-if Q1 == EVET or Q1 == KEVET:
+if Q1 in [EVET, KEVET]:
     print ("Cevabınız DOĞRU...!")
-    print()
     puan += 1
 else:
     print("Cevabınız YANLIŞ...!")
-    print()
-
+print()
 Q2 = input(soru2) # 2.SORU CEVABI PİRİ REİS
-if Q2 == EVET or Q2 == KEVET:
+if Q2 in [EVET, KEVET]:
     print("Cevabınız DOĞRU...!")
-    print()
     puan += 1
 else:
     print("Cevabınız YANLIŞ...!")
-    print()
-
+print()
 Q3 = input(soru3) # 3.SORU CEVABI KANGURU
-if Q3 == HAYIR or Q3 == KHAYIR:
+if Q3 in [HAYIR, KHAYIR]:
     print("Cevabınız DOĞRU...!")
-    print()
     puan += 1
 else:
     print("Cevabınız YANLIŞ...!")
-    print()
-
+print()
 Q4 = input(soru4) # 4.SORU CEVABI 22
-if Q4 == HAYIR or Q4 == KHAYIR:
+if Q4 in [HAYIR, KHAYIR]:
     print("Cevabınız DOĞRU...!")
-    print()
     puan += 1
 else:
     print("Cevabınız YANLIŞ...!")
-    print()
-
+print()
 Q5 = input(soru5) # 5.SORU CEVABI 16
-if Q5 == HAYIR or Q5 == KHAYIR:
+if Q5 in [HAYIR, KHAYIR]:
     print("Cevabınız DOĞRU...!")
-    print()
     puan += 1
 else:
     print("Cevabınız YANLIŞ...!")
-    print()
-
-print("     Sınav sona ermiştir... Aldığınız PUAN : ", str(puan*20))
+print()
+print("     Sınav sona ermiştir... Aldığınız PUAN : ", puan*20)
 input ("Çıkmak için herhangi bir tuşa basınız...")

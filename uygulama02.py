@@ -27,10 +27,10 @@ cevaplar = ['B', 'C', 'B', 'A', 'A']
 spuan = 0
 # For döngüsü
 for x in range(len(sQ)):
-    print("SORU" + str(x+1)+"\t:\t"+sQ[x])
-    print("A) " + A_şıkkı[x])
-    print("B) " + B_şıkkı[x])
-    print("C) " + C_şıkkı[x])
+    print(f'SORU{str(x+1)}' + "\t:\t" + sQ[x])
+    print(f'A) {A_şıkkı[x]}')
+    print(f'B) {B_şıkkı[x]}')
+    print(f'C) {C_şıkkı[x]}')
     cevap = input("Yanıtınızı giriniz : ")
     if cevaplar[x] == cevap.upper():
         print()
@@ -46,6 +46,6 @@ for x in range(len(sQ)):
         print("-"*20)
         print()
 # SINAV SONUÇ EKRANI
-print("\t\tSınav sona ermiştir... Aldığınız PUAN : ", str(int((spuan/len(sQ))*100)))
+print("\t\tSınav sona ermiştir... Aldığınız PUAN : ", int((spuan/len(sQ))*100))
 print()
 input ("\t\tÇıkmak için herhangi bir tuşa basınız...\t")
