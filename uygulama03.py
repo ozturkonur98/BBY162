@@ -10,12 +10,10 @@ kelimelist = random.choice(["kekik", "kiraz", "marul", "dereotu", "kabak", "nohu
 
 kelimeuzunluk = len(kelimelist)
 print("Bu el {} harfli kelime geldi :)).\n".format(kelimeuzunluk))
-oyuncucan = 5
-bitkiler = []
 Cizgi = "|_|"
-for kelime in kelimelist:
-    bitkiler.append(Cizgi)
+bitkiler = [Cizgi for _ in kelimelist]
 print(bitkiler)
+oyuncucan = 5
 while oyuncucan > 0:
     i = 0
     harfgiriş = input("\nBir harf giriniz...: ").lower()
